@@ -125,10 +125,13 @@ fn add_use(dept_map: &mut HashMap<String, Vec<String>>, dept: String, user: Stri
 }
 
 fn add_use2(dept_map: &mut HashMap<String, Vec<String>>, dept: String, user: String) {
+    let user_name = user.clone();
     dept_map
         .get_mut(&dept)
         .get_or_insert(&mut vec![])
         .push(user);
+    //
+    dept_map.entry(dept).or_insert(Vec::new()).push(user_name);
 }
 /**
 Pig Latin

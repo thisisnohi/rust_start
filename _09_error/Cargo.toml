@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "panic",
+    "result",
+]
+
+
+
+[toolchain]
+channel = "nightly"

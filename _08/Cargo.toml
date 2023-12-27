@@ -1,0 +1,13 @@
+[workspace]
+
+members = [
+    "vec",
+    "string",
+    "hashmap",
+    "homework01",
+]
+
+
+
+[toolchain]
+channel = "nightly"

@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "syntax",
+    "trait",
+    "scop",
+]
+
+
+
+[toolchain]
+channel = "nightly"

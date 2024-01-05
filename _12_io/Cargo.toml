@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "minigrep",
+    "minigrep2",
+]
+
+
+
+[toolchain]
+channel = "nightly"

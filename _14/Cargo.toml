@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "cargo",
+    "art",
+    "add_one",
+]
+
+
+
+[toolchain]
+channel = "nightly"

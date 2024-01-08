@@ -1,9 +1,9 @@
-use art::{mix, PrimaryColor};
-
 //! # Art
 //!
 //! A library for modeling artistic concepts.
 //! ch14 car使用测试
+
+use art::{mix, PrimaryColor};
 
 fn main() {
     println!("Hello, world!");

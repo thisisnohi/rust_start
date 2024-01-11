@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "box",
+    "rccell",
+    "memory_leak",
+]
+
+
+
+[toolchain]
+channel = "nightly"

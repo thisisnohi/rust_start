@@ -1,0 +1,16 @@
+[workspace]
+
+members = [
+    "traitoop",
+    "blog",
+    "blog2",
+    # 再学习
+    "gui",
+    "gui2",
+    "blog11",
+]
+
+
+
+[toolchain]
+channel = "nightly"

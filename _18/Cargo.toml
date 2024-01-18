@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "pattern",
+]
+
+
+
+[toolchain]
+channel = "nightly"

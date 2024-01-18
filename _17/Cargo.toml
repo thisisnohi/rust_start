@@ -8,6 +8,7 @@ members = [
     "gui",
     "gui2",
     "blog11",
+    "blog12",
 ]
 
 

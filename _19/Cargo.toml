@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "unsafe",
+    "trait_advanced",
+]
+
+
+
+[toolchain]
+channel = "nightly"

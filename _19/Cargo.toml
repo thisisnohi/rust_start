@@ -3,6 +3,10 @@
 members = [
     "unsafe",
     "trait_advanced",
+    "type_advanced",
+    "fn_advanced",
+    "macros_demo",
+    "hello_macro",
 ]
 
 
